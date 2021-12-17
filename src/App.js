@@ -30,14 +30,15 @@ function App() {
     if (svg.current) {
         new Gantt(svg.current, tasks, {
           custom_popup_html: (task) => {
-            const startDate = moment(task._start).format("MMM D")
-            const endDate = moment(task._end).format("MMM D")
+            const startDate = moment(task._start).format("MMM D YYYY")
+            const endDate = moment(task._end).format("MMM D YYYY")
             return `
               <div class="title">${task.name}</div>
               <div class="subtitle">${startDate} - ${endDate}</div>
               <div class="subtitle">${task.assignee}</div>
             `;
           },
+          view_mode: "Week",
         })
     }
   }, [svg, tasks]);
