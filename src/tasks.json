@@ -1,0 +1,56 @@
+[
+    {
+        "milestoneName": "Milestone One",
+        "milestoneId": "<uuid4>",
+        "startDate": "2021-12-14",
+        "endDate": "2021-12-17",
+        "businessUnit": "<business-unit>",
+        "notes": "<random-message>",
+        "assignee": {
+            "profilePicture": "<url>",
+            "email_verified": "true",
+            "name": "<name>",
+            "userType": "<user-type>",
+            "userId": "<uuid4>",
+            "orgId": "<organization-id>",
+            "email": "<email>",
+            "username": "<userid>"
+        }
+    },
+    {
+        "milestoneName": "Milestone Two",
+        "milestoneId": "<uuid4>",
+        "startDate": "2021-12-17",
+        "endDate": "2021-12-21",
+        "businessUnit": "<business-unit>",
+        "notes": "<random-message>",
+        "assignee": {
+            "profilePicture": "<url>",
+            "email_verified": "true",
+            "name": "<name>",
+            "userType": "<user-type>",
+            "userId": "<uuid4>",
+            "orgId": "<organization-id>",
+            "email": "<email>",
+            "username": "<userid>"
+        }
+    },
+    {
+        "milestoneName": "Milestone Three",
+        "milestoneId": "<uuid4>",
+        "startDate": "2021-12-21",
+        "endDate": "2021-12-24",
+        "businessUnit": "<business-unit>",
+        "notes": "<random-message>",
+        "assignee": {
+            "profilePicture": "<url>",
+            "email_verified": "true",
+            "name": "<name>",
+            "userType": "<user-type>",
+            "userId": "<uuid4>",
+            "orgId": "<organization-id>",
+            "email": "<email>",
+            "username": "<userid>"
+        }
+    }        
+]
